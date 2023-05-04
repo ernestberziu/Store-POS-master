@@ -38,6 +38,8 @@ let html2canvas = require('html2canvas');
 let JsBarcode = require('jsbarcode');
 let macaddress = require('macaddress');
 let categories = [];
+
+
 let holdOrderList = [];
 let customerOrderList = [];
 let ownUserEdit = null;
