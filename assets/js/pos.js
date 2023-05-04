@@ -43,6 +43,8 @@ let categories = [];
 let holdOrderList = [];
 let customerOrderList = [];
 let ownUserEdit = null;
+
+
 let totalPrice = 0;
 let orderTotal = 0;
 let auth_error = 'Incorrect username or password';
