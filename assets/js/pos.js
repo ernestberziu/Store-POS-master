@@ -112,7 +112,6 @@ $.fn.serializeObject = function () {
 auth = storage.get('auth');
 user = storage.get('user');
 
-console.log(auth, user)
 if (auth == undefined) {
     $.get(api + 'users/check/', function (data) { console.log(data) });
     $("#loading").show();
